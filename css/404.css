@@ -1,0 +1,43 @@
+.error-padre{
+	height: 100vh;
+	background: url(../img/logo_error.svg);
+	background-position: center;
+	background-attachment: contain;
+	/* background-size: 100% 100%; */
+	background-repeat: no-repeat;
+}
+.text-error{
+	font-size: 10em;
+	text-align: center;
+	font-weight: bold;
+	transform: translateX(0) translateY(30%);
+}
+
+.error-hijo{
+	text-align: center;
+}
+
+.btn-inicio{
+	position: relative;
+	bottom: -50px;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	color: #000;
+	background-color: #F26C29;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	transform: translateX(-100%);
+}
+
+.btn-inicio a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn-inicio:hover{
+	background-color: #01F6F6;
+}

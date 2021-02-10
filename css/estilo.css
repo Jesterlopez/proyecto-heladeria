@@ -1,0 +1,273 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/* font-family: 'Arial', sans-serif; */
+	/* font-family: 'Poppins', sans-serif; */
+	/* font-family: 'Capriola', sans-serif; */
+	/* font-family: 'Port Lligat Slab', serif; */
+	font-family: 'Port Lligat Slab', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+body{
+	background: url('../img/bghelado5.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* h3{
+	text-align: center;
+	font-size: 30px;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #000;
+} */
+
+.contenedor-inicio{
+	margin-top: 0;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+.contenedor-inicio h1{
+	font-size: 40px;
+	transform: translateX(0) translateY(150px);
+	letter-spacing: 10px;
+	font-family: 'Goodlight', sans-serif;
+}
+
+.contenedor-inicio img{
+	height: 260px;
+	transform: translateX(0) translateY(40%);
+}
+
+.bienvenida{
+	width: 100%;
+	height: 300px;
+	background: #f7f5f6;
+	text-align: center;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	
+}
+.bienvenida p{
+	margin: auto;
+	width: 700px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.sabores-padre{
+	/* background: url('../img/background2.JPG'); */
+	background: #01F6F6;
+	/* background: #f7f5f6; */
+	/* background-size: 100%; */
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 0 !important;
+}
+
+.sabores-hijo{
+	text-align: center;
+	background: #32201F;
+	color: #fff;
+	border-radius: 5px;
+	width: 250px;
+	min-height: 350px;
+	margin: 30px 5px;
+	transition: .9s ease;
+	padding: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 24);
+}
+
+.sabores-hijo:hover{
+	transform: scale(1.05);
+}
+
+.sabores-hijo img{
+	border-radius: 5px;
+	width: 200px;
+	height: 200px;
+}
+
+.sabores-hijo p{
+	padding-top: 5px;
+}
+
+.descripcion{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: justify;
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0;
+
+}
+.descripcion-helado{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: justify;
+	padding: 0px;
+	box-sizing: border-box;
+	margin-top: 0px;
+}
+
+.contenedor-otros{
+	background: transparent;
+	width: 100%;
+	height: auto;
+	justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.otros-hijo{
+	text-align: center;
+	background: #32201F;
+	background-size: 100%;
+	color: #fff;
+	border-radius: 5px;
+	width: 250px;
+	height: 325px;
+	margin: 30px 5px;
+
+	padding: 10px;
+	cursor: pointer;
+}
+.otros-hijo img{
+	border-radius: 5px;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 5px 10px #1f1f1f;
+}
+
+.otros-hijo p{
+	font-size: 30px;
+	margin: auto;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.titulos{
+	padding: 10px 0; 
+	background: #f7f5f6;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(31, 31, 31);
+}
+.titulos hr{
+    border: 1.1px solid #17cccc;
+	width: 25%;
+	transform: translateX(0);
+    margin: auto;
+	background: #17cccc;
+}
+
+.btn{
+	padding: 10px 0; 
+	background: transparent;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(31, 31, 31);
+}
+
+.btn button{
+	height: 40px;
+	width: 200px;
+	background: #01F6F6;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	transition: .8s ease;
+}
+
+.btn button:hover{
+	background: #32201F;
+	color: #fff;
+}
+
+@media screen and (max-width: 500px){
+	body{
+		width: 100%;
+		margin-top: 0px;
+		background-size: 100vh 100vw;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position-y: 0;
+	}
+
+	.bienvenida{
+		height: auto;
+	}
+
+	.bienvenida p{
+		width: 100%;
+	}
+
+	.sabores-hijo{
+		width: 220px;
+		min-height: 320px;
+		padding: 5px;
+		box-sizing: border-box;
+		margin-top: 70px;
+	}
+	.sabores-hijo img{
+		border-radius: 5px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	.descripcion{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		max-width: 20px;
+		text-align: justify;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+	hr{
+	transform: translateX(75%) translateY(0);
+	/* align-items: center; */
+	}
+	.contenedor-inicio{
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.contenedor-inicio img{
+		margin-top: 0px;
+		width: 300px;
+		height: auto;
+	}
+
+}
+
+
+.border-style {
+	border: 3px solid #483331;
+	-webkit-transition: border-color 0.5s ease;
+
+	transition: border-color 0.5s ease;
+  }
+  .border-style:hover {
+	transition: .7s ease;
+
+	border-color: #01F6F6;
+	transform: scale(1.05);
+  }

@@ -1,0 +1,180 @@
+.contenedor-somos{
+    background: url('../img/grupo2.jpg');
+    /* background: #f7f6f5; */
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.contenedor-somos h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transform: translateY(30%);
+    padding: 160px 0; 
+    padding-bottom: 100px;
+}
+.contenedor-somos1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-somos2{
+    background: #f7f7f7;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-somos-hijo{
+    width: 33.3%;
+    height: 300px;
+}
+
+.iz{
+background: #fff;
+width: 33.3%;
+height: 300px;
+}
+.ce{
+background: #f7f7f7;
+width: 33.3%;
+height: 300px;
+}
+.de{
+background: #1f1f1f;
+width: 33.3%;
+height: 300px;
+}
+
+.quienes-somos-iz{
+width: 50%;
+height: 100%;
+}
+
+.quienes-somos-iz img{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px !important;
+}
+
+.quienes-somos-de{
+width: 50%;
+height: 100%;   
+}
+
+.quienes-somos-de h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quienes-somos-de p{
+    font-size: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#linea-ti{
+    width: 30%;
+    margin: auto;
+    border: 1.1px solid #17cccc;
+    background: #17cccc;
+    
+}
+
+
+.grupo{
+    width: 100%;
+    height: 350px;
+    background: #32201F;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grupo .card{
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 20%;
+    /* height: 300px;  */
+    background: rgb(44, 28, 27);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-img{
+    width: 100%;
+    height: 50px;
+    background: #f7f6f5af;
+    border-radius: 0 0 5px 5px;
+    margin-top: -4px;
+}
+
+.info-img p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+    .contenedor-somos{
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .contenedor-somos h1{
+        font-size: 45px;
+        transform: translateY(0%);
+        padding: 140px 0; 
+    }
+
+    .contenedor-somos2{
+        height: auto;
+        font-size: 11px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quienes-somos-iz{
+        width: 100%;
+    }
+
+    .quienes-somos-de{
+        width: 100%;
+    }
+
+    .quienes-somos-de h2{
+       font-size: 22px;
+    }
+
+    .quienes-somos-de p{
+        padding: 10px;
+    }
+
+    .grupo{
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .grupo .card{
+        width: 40%;
+        height: auto;
+    }
+    #linea-ti{
+        width: 18%;
+        transform: translateX(0%);
+    }
+}
